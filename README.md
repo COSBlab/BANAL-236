@@ -8,8 +8,9 @@ This repository is organized in the following directories:
 * `V391I`: data related to the simulations of the V391I mutant;
 * `DATA`: various protocols, python/bash scripts and GROMACS mdp files.
 
-Inside the first 2 directories, you will find 3 subdirectories, one for each independent run (replicate) of the RBD/hACE2 complex
-under study. The naming scheme along with some basic information about the simulations is reported in the table at the bottom of this page.
+Inside the first 2 directories, you will subdirectories for system setup and equilibration, plus one subdirectory for each independent 
+production simulation (replicate) of the RBD/hACE2 complex under study. 
+The naming scheme along with some basic information about the simulations is reported in the table at the bottom of this page.
 Each of the directories in the table is organized as follows:
 * `0-TOPO`: initial conformation and topology files in GROMACS format;
 * `1-EQUIL`: run energy minimization and equilibration here. Please refer to `README.md` for instructions;
@@ -21,9 +22,9 @@ Each of the directories in the table is organized as follows:
 Make sure you install the following software before performing and analyzing the simulations. Information about
 how to install the software can be found by following the corresponding link.  
 
-* [GROMACS 2020.4](https://www.gromacs.org)
+* [GROMACS 2021.4](https://www.gromacs.org)
 * [PLUMED 2.7](https://www.plumed.org)
-* [MDAnalysis 1.0.0](https://www.mdanalysis.org)
+* [MDAnalysis 2.1.0](https://www.mdanalysis.org)
 * [FoldX 4](http://foldxsuite.crg.eu)
 
 **Summary of all the simulations performed**
