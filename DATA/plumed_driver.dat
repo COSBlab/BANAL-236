@@ -1,0 +1,12 @@
+# various backbone RMSD
+# ACE
+rmsd-ace:   RMSD REFERENCE=rmsd-ACE.pdb   TYPE=OPTIMAL NOPBC
+# RBD
+rmsd-rbd:   RMSD REFERENCE=rmsd-RBD.pdb   TYPE=OPTIMAL NOPBC
+# INTERFACIAL rmsd
+rmsd-inter: RMSD REFERENCE=rmsd-INTER.pdb TYPE=OPTIMAL NOPBC
+# COMPLEX rmsd
+rmsd-all:   RMSD REFERENCE=rmsd-ALL.pdb   TYPE=OPTIMAL NOPBC
+
+# print stuff
+PRINT ARG=rmsd-ace,rmsd-rbd,rmsd-inter,rmsd-all FILE=COLVAR_RMSD STRIDE=1
