@@ -30,12 +30,12 @@ how to install the software can be found by following the corresponding link.
 
 |   RUN ID	   |  Construct	| Initial model	| # K/Cl ions |	 # waters | Total # atoms | Production time [ns] |
 | :------: |  :------:  |     :------:  | :------:    | :------:  | :------:      | :------:             |
-| WT.1 | WT BANAL-236 RBD/hACE2 | X-ray (7PKI) | 121/97 | 30502 | 104228 | 1000 |
-| WT.2 | WT BANAL-236 RBD/hACE2 | X-ray (7PKI) | 120/96 | 30140 | 103140 | 1000 |
-| WT.3 | WT BANAL-236 RBD/hACE2 | X-ray (7PKI) | 120/96 | 30090 | 102990 | 1000 |
-| V391I.1 | V391I BANAL-236 RBD/hACE2 |	Homology model  |	123/98	| 30808	| 105144 | 1000 |
-| V391I.2 | V391I BANAL-236 RBD/hACE2 |	Homology model  |	121/96	| 30135	| 103121 | 1000 |
-| V391I.3 | V391I BANAL-236 RBD/hACE2 |	Homology model  |	124/99	| 31307	| 106643 | 1000 |
+| WT.1 | WT BANAL-236 RBD/hACE2 | X-ray (PDB code [7PKI](https://www.rcsb.org/structure/7PKI)) | 113/91 | 27990 | 96937 | 1000 |
+| WT.2 | WT BANAL-236 RBD/hACE2 | X-ray (PDB code [7PKI](https://www.rcsb.org/structure/7PKI)) | 113/91 | 27990 | 96937 | 1000 |
+| WT.3 | WT BANAL-236 RBD/hACE2 | X-ray (PDB code [7PKI](https://www.rcsb.org/structure/7PKI)) | 113/91 | 27990 | 96937 | 1000 |
+| V391I.1 | V391I BANAL-236 RBD/hACE2 |	Homology model  | 113/91 | 27955 | 96835 | 1000 |
+| V391I.2 | V391I BANAL-236 RBD/hACE2 |	Homology model  | 113/91 | 27955 | 96835 | 1000 |
+| V391I.3 | V391I BANAL-236 RBD/hACE2 |	Homology model  | 113/91 | 27955 | 96835 | 1000 |
 
 **Contact**
 
