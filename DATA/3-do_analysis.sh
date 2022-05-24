@@ -26,7 +26,7 @@ plumed driver --plumed ../../../DATA/plumed_driver.dat --mf_xtc ../2-PRODUCTION/
 # execute python script: requires python3 and MDAnalysis
 python ../../../DATA/count-SB.py ../../1-EQUIL/PDBs/conf_emin.pdb ../2-PRODUCTION/traj-PBC.xtc 
 
-# 6) Create individual PDBs from traj_all_PBC.xtc
+# 6) Create individual PDBs from traj-PBC.xtc 
 # you might want to parallelize this using a job-array
 mkdir PDBs; cd PDBs
 # execute python script: requires python3 and MDTraj
