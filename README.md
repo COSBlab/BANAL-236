@@ -25,6 +25,7 @@ how to install the software can be found by following the corresponding link.
 * [GROMACS 2021.4](https://www.gromacs.org)
 * [PLUMED 2.7](https://www.plumed.org)
 * [MDAnalysis 2.1.0](https://www.mdanalysis.org)
+* [MDTraj 1.9.5](https://www.mdtraj.org/1.9.5/index.html)
 * [FoldX 4](http://foldxsuite.crg.eu)
 
 **Summary of all the simulations performed**
