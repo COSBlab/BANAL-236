@@ -6,5 +6,6 @@ This directory contains the following items:
 * `2-do_production.sh`: protocol for production simulations;
 * `3-do_analysis.sh`: protocol for the analysis of the production simulations;
 * `plumed_driver.dat`: calculate various types of RMSD with PLUMED
+* `count-HB.py`: calculate frequency of formation of inter-subunits hydrogen bonds;
 * `count-SB.py`: calculate frequency of formation of inter-subunits salt bridges;
 * `get_PDB_frames.py`: convert a GROMACS xtc trajectory to individual PDB files, one for each frame.
