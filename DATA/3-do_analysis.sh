@@ -22,7 +22,7 @@ rm traj_all.xtc
 # 4) PLUMED post-processing: RMSD calculation
 plumed driver --plumed ../../../DATA/plumed_driver.dat --mf_xtc ../2-PRODUCTION/traj-PBC.xtc
 
-# 6) Hydrogen bonds analysis
+# 5) Hydrogen bonds analysis
 # execute python script: requires python3 and MDAnalysis
 python ../../../DATA/count-HB.py ../../0-TOPO/topol_xtc.tpr ../2-PRODUCTION/traj-PBC.xtc
 
