@@ -8,7 +8,7 @@ This repository is organized in the following directories:
 * `V391I`: data related to the simulations of the V391I mutant;
 * `DATA`: various protocols, python/bash scripts and GROMACS mdp files.
 
-Inside the first 2 directories, you will subdirectories for system setup and equilibration, plus one subdirectory for each independent 
+Inside the first 2 directories, you will find subdirectories for system setup and equilibration, plus one subdirectory for each independent 
 production simulation (replicate) of the RBD/hACE2 complex under study. 
 The naming scheme along with some basic information about the simulations is reported in the table at the bottom of this page.
 Each of the directories in the table is organized as follows:
