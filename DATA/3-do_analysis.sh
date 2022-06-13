@@ -20,7 +20,7 @@ rm traj_all.xtc
 ### now we do the analysis on the full trajectory
 ###
 # 4) PLUMED post-processing: RMSD calculation
-plumed driver --plumed ../../../DATA/plumed_driver.dat --mf_xtc ../2-PRODUCTION/traj-PBC.xtc
+plumed driver --plumed plumed_driver.dat --mf_xtc ../2-PRODUCTION/traj-PBC.xtc
 
 # 5) Hydrogen bonds analysis
 # execute python script: requires python3 and MDAnalysis
