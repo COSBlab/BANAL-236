@@ -1,7 +1,8 @@
 # BANAL-236
 Data needed to reproduce the Molecular Dynamics simulations of WT and mutant BANAL-236 RBD/hACE2 complexes reported in:
 
-ADD REFERENCE
+Temmam et al. SARS-CoV-2-related bat virus behavior in human-relevant models sheds light on the origin of COVID-19.
+EMBO Rep. 2023 Apr 5;24(4):e56055. doi: 10.15252/embr.202256055.
 
 This repository is organized in the following directories:
 * `WT`: data related to the simulations of the wild type BANAL-236 RBD/hACE2 complex;
